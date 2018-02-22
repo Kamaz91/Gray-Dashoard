@@ -1,0 +1,200 @@
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+a,a:link,a:active {
+    text-decoration: none;
+}
+
+.menu {
+    background: #fcfcfc;
+    border-right: 1px solid #dedede;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    width: 100px;
+    padding: 25px 0 0 0;
+}
+
+.menu a {
+    text-align: center;
+    text-shadow: 1px 1px 0 #FFF;
+    color: #999;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 14px;
+}
+
+.menu a:hover {
+    color: #222;
+}
+
+.menu a i {
+    font-size: 25px;
+    display: block;
+}
+
+.container {
+    background: #eee;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 101px;
+}
+
+.mainTitle {
+    background: #fff;
+    color: #444;
+    font: 43px/70px Verdana;
+    height: 70px;
+    text-align: center;
+    text-shadow: -1px 1px 0 #ccc;
+}
+
+.secondaryMenu {
+    background: #f6f6f6;
+    box-shadow: 0 2px 0 #e6e6e6;
+    font: bolder 23px/30px monospace;
+    height: 85px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #ffffff;
+}
+
+.secondaryMenuHolder a {
+    color: #999;
+    font: 16px/22px verdana;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.secondaryMenuHolder a:hover {
+    color: #222;
+}
+
+.secondaryMenuHolder a i {
+    font-size: 26px;
+    display: block;
+}
+
+.secondaryMenuHolder a span {
+    display: block;
+}
+
+.mainBox {
+    padding: 20px 25px;
+}
+
+.windowBox {
+    margin: 6px;
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    display: inline-block;
+    padding: 10px 15px;
+    min-width: 200px;
+    box-shadow: 0px 2px 1px #e6e6e6;
+    -webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1;
+}
+
+.bigWindow {
+    position: relative;
+    width: available;
+    -webkit-flex: 8; /* Safari 6.1+ */
+    -ms-flex: 8; /* IE 10 */
+    flex: 8;
+    min-width: 400px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.titleBox {
+    box-shadow: 0 1px #e6e6e6;
+    color: #666;
+    font: 22px/11px monospace;
+    height: 22px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #72b9e5;
+    border: 1px solid #6fb8e4;
+    border-radius: 4px;
+    box-shadow: 0 0 6px #68afdb inset;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font: 17px/8px Sans Serif;
+    margin-top: 7px;
+    padding: 11px 8px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.button:hover {
+    background: #5fa6d2;
+}
+
+.formInputcover {
+    background: #FFF;
+    max-width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 6px 9px;
+    transition: all  0.3s ease-in-out;
+}
+
+.formInput {
+    width: 100%;
+    border: none
+}
+
+.formInput:focus {
+    border: none
+}
+
+.formTable {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-spacing: 0;
+    border-bottom: none;
+    border-left: none;
+    color: #767676;
+    font: 16px/19px monospace;
+}
+
+.formTable tr {
+    transition: all 0.3s ease-in-out;
+}
+
+.formTable tr:nth-child(odd) {
+    background: #FFF;
+}
+.formTable tr:nth-child(1) {
+    background: #FEFEFE !important;
+}
+.formTable tr:hover {
+    background: #eaeaea;
+}
+.formTable th {
+    border-bottom: 2px solid #e2e2e2;
+    border-left: 1px solid #cccccc;
+    color: #444;
+    font-weight: bold;
+    padding: 5px 7px ;
+    text-align: left !important;
+}
+.formTable td {
+    padding: 5px 7px ;
+    border-left: 1px solid #cccccc;
+}
+.formTable tr th , .formTable tr td:nth-child(1) {
+    text-align: center;
+}
+.formTable td {
+    border-bottom: 1px solid #cccccc;
+}
